@@ -8,13 +8,14 @@ public:
     Figura(int _x)
     {
         x = _x;
-    }                
+    }  
+
+    virtual float perimetro();
+    virtual float area();              
 };
 
 int main()
 {
-    Figura uno = Figura(20);
-    cout << uno.x << endl;
     return 0;
 }
 
